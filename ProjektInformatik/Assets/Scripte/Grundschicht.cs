@@ -7,7 +7,7 @@ public class Grundschicht : MonoBehaviour {
 	void Start () {
 	    if(gameObject.transform.position.x > PlayerPrefs.GetFloat("linkeWeltgroesse"))
         {
-            Instantiate(Grund, new Vector3(gameObject.transform.position.x - 0.5f, gameObject.transform.position.y, gameObject.transform.position.z), Quaternion.identity);
+            //Instantiate(Grund, new Vector3(gameObject.transform.position.x - 0.5f, gameObject.transform.position.y, gameObject.transform.position.z), Quaternion.identity);
         }
 	}
 	
